@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>sign in</title>
+	
+	<link rel="stylesheet" href="instagram.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.click').click(function(){
+          $('.popup_box').css("display", "block");
+        });
+        $('.btn1').click(function(){
+          $('.popup_box').css("display", "none");
+        });
+        $('.btn2').click(function(){
+          $('.popup_box').css("display", "none");
+          alert("login successfully.");
+        });
+    });
+    
+    
+
+    </script>
+
+</head>
+<body>
+	<a href="#" class="click">INSTAGRAM</a>
+	<div class="popup_box">
+	<div class="form"><center>
+		<i class="fab fa-instagram fa-3x" style="color:white;"></i>
+		<h2>LOGIN</h2></center><br>
+		<label>USER NAME</label>
+		<input type="text"placeholder="user name"><br><br>
+		<label>PASSWORD</label>
+		<input type="password" placeholder="password">
+		<div class="btns">
+        <a href="#" class="btn1">back</a>
+        <a href="#" class="btn2">login</a><br><br>
+		<a>forget password?</a>
+	
+</div>
+</div>
+</div>
+	</form>
+</body>
+</html>
